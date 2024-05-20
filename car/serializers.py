@@ -21,7 +21,7 @@ class CarSerializer(serializers.Serializer):
         instance.manufacturer = validated_data.get(
             "manufacturer", instance.manufacturer
         )
-        instance.model = validated_data.get*(
+        instance.model = validated_data.get(
             "model", instance.model
         )
         instance.horse_powers = validated_data.get(
